@@ -16,14 +16,17 @@ h1 {
   font-style: italic;
 }
 
+/* Header H2 */
 h2 {
   font-size: 40px;
 }
 
+/* Header H3 */
 h3 {
   font-size: 30px;
 }
 
+/* Header H4 */
 h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -36,10 +39,12 @@ p {
   line-height: 1.5;
 }
 
+/*  */
 li {
   font-size: 20px;
 }
 
+/* for footer */
 footer p {
   font-size: 16px;
 }
