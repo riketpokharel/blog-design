@@ -1,12 +1,8 @@
-/* Font family to all fonts */
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+body {
   color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -128,10 +124,11 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
 /* LVHA */
 
 /* Resolving conflicts */
-#copyright {
+/*#copyright {
   color: red;
 }
 
@@ -143,5 +140,14 @@ a:active {
 }
 
 footer p {
-  color: green;
+   color: green !important; 
+}
+*/
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+nav {
+  font-size: 18px;
 }
