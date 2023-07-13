@@ -151,3 +151,7 @@ nav p {
 nav {
   font-size: 18px;
 }
+#copyright {
+  text-align: center;
+  font-weight: bold;
+}
