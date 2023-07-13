@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -20,11 +25,14 @@ h1 {
 /* Header H2 */
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 /* Header H3 */
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 /* Header H4 */
@@ -38,11 +46,22 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 /*  */
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* for footer */
@@ -75,12 +94,33 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
 }
 
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
 }
 
 /* .first-li {
@@ -127,6 +167,11 @@ a:active {
 
 /* LVHA */
 
+.post-img {
+  width: 800px;
+  height: auto;
+}
+
 /* Resolving conflicts */
 /*#copyright {
   color: red;
@@ -148,9 +193,7 @@ footer p {
 nav p {
   font-size: 18px;
 } */
-nav {
-  font-size: 18px;
-}
+
 #copyright {
   text-align: center;
   font-weight: bold;
