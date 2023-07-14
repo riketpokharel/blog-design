@@ -175,8 +175,9 @@ a:active {
 /* LVHA */
 
 .post-img {
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
+  width: 900px;
 }
 
 /* Resolving conflicts */
