@@ -175,9 +175,8 @@ a:active {
 /* LVHA */
 
 .post-img {
-  /* width: 100%;
-  height: auto; */
-  width: 900px;
+  width: 100%;
+  height: auto;
 }
 
 /* Resolving conflicts */
@@ -205,4 +204,5 @@ nav p {
 #copyright {
   text-align: center;
   font-weight: bold;
+  margin-top: 10px;
 }
