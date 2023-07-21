@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* PAGE SECTION */
 body {
   color: #444;
   font-family: sans-serif;
@@ -108,7 +109,7 @@ li:last-child {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -144,9 +145,9 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(even) {
-  /* color: red; */
-}
+/* li:nth-child(even) {
+  color: red;
+} */
 
 /* Misconception: this won't work */
 article p:first-child {
@@ -180,7 +181,13 @@ a:active {
   width: 100%;
   height: auto;
 }
+/* nav a:link {
+  background-color: orangered;
+  margin: 20px;
+  padding: 20px;
 
+  display: block;
+} */
 /* Resolving conflicts */
 /*#copyright {
   color: red;
