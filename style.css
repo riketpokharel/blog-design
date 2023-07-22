@@ -229,7 +229,7 @@ h2 {
   /* background-color: orange; */
   position: relative;
 }
-h2::after {
+h2::before {
   content: "TOP";
   background-color: #ffe70e;
   color: #444;
