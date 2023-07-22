@@ -115,6 +115,7 @@ li:last-child {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -183,7 +184,7 @@ a:active {
   width: 100%;
   height: auto;
 }
-nav a:link {
+nav a {
   /* background-color: orangered;
   margin: 20px;
   padding: 20px;
