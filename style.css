@@ -269,3 +269,15 @@ nav p {
   font-weight: bold;
   margin-top: 10px;
 }
+
+/* FLOATS */
+
+.author-img {
+  float: left;
+}
+
+.author {
+  padding-left: 80px;
+  padding-top: 10px;
+  float: left;
+}
